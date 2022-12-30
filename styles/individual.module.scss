@@ -1,0 +1,246 @@
+@media screen and (max-width: 767px) {
+  .main {
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    * {
+      margin: 0;
+    }
+
+    > :first-child {
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(57, 57, 72);
+      border: 1px solid rgb(120, 120, 120);
+      padding: 1rem;
+      > img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    > :nth-child(2) {
+      display: grid;
+      gap: 1rem;
+      height: min-content;
+      > h1 {
+        color: #ff9a35;
+        font-weight: 600;
+        font-size: 1.8rem;
+      }
+
+      > :nth-child(2) {
+        display: flex;
+        gap: 0.6rem;
+        span {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 0.1rem 0.6rem;
+          background-color: rgb(79, 79, 80);
+          border-radius: 0.5rem;
+          font-size: 0.8rem;
+          font-weight: 500;
+        }
+      }
+
+      > :nth-child(3) {
+        font-size: 0.9rem;
+      }
+
+      > :nth-child(4) {
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+
+        > :first-child {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          svg {
+            color: orange;
+            font-size: 1.4rem;
+          }
+        }
+      }
+
+      > :nth-child(5) {
+        > :last-child {
+          color: #ff9a35;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .main {
+    padding: 0 6.5rem;
+    margin-top: 1rem;
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    * {
+      margin: 0;
+    }
+
+    > :first-child {
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(57, 57, 72);
+      border: 1px solid rgb(120, 120, 120);
+      padding: 1rem;
+      > img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    > :nth-child(2) {
+      display: grid;
+      gap: 1rem;
+      height: min-content;
+      > h1 {
+        color: #ff9a35;
+        font-weight: 600;
+        font-size: 2.2rem;
+      }
+
+      > :nth-child(2) {
+        display: flex;
+        gap: 0.6rem;
+        span {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 0.1rem 0.6rem;
+          background-color: rgb(79, 79, 80);
+          border-radius: 0.5rem;
+          font-size: 1rem;
+          font-weight: 500;
+        }
+      }
+
+      > :nth-child(3) {
+        font-size: 1.1rem;
+      }
+
+      > :nth-child(4) {
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+
+        > :first-child {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 1.4rem;
+
+          svg {
+            color: orange;
+            font-size: 1.6rem;
+          }
+        }
+
+        > span {
+          font-size: 1.4rem;
+        }
+      }
+
+      > :nth-child(5) {
+        font-size: 1.2rem;
+        > :last-child {
+          color: #ff9a35;
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .main {
+    padding: 0 6.5rem;
+    font-family: "Poppins";
+    display: flex;
+    gap: 2rem;
+    * {
+      margin: 0;
+    }
+
+    > :first-child {
+      height: 440px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(57, 57, 72);
+      border: 1px solid rgb(120, 120, 120);
+      padding: 1rem;
+      > img {
+        height: 100%;
+      }
+    }
+
+    > :nth-child(2) {
+      display: grid;
+      gap: 1rem;
+      height: min-content;
+      > h1 {
+        color: #ff9a35;
+        font-weight: 600;
+        font-size: 1.8rem;
+      }
+
+      > :nth-child(2) {
+        display: flex;
+        gap: 0.6rem;
+        span {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 0.1rem 0.6rem;
+          background-color: rgb(79, 79, 80);
+          border-radius: 0.5rem;
+          font-size: 0.8rem;
+          font-weight: 500;
+        }
+      }
+
+      > :nth-child(3) {
+        font-size: 0.9rem;
+      }
+
+      > :nth-child(4) {
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+
+        > :first-child {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          svg {
+            color: orange;
+            font-size: 1.4rem;
+          }
+        }
+      }
+
+      > :nth-child(5) {
+        > :last-child {
+          color: #ff9a35;
+        }
+      }
+    }
+  }
+}

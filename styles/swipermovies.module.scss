@@ -1,0 +1,522 @@
+@media screen and (max-width: 767px) {
+  .swipermovies {
+    margin-top: 1rem;
+    padding: 0 0.5rem;
+
+    > :first-child {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-items: center;
+
+      > :first-child {
+        margin-top: 1.5rem;
+
+        > div {
+          cursor: default;
+          display: flex;
+          justify-content: center;
+
+          > div {
+            position: relative;
+            height: 330px;
+            width: 95%;
+
+            > img {
+              height: 100%;
+              width: 100%;
+            }
+
+            > :nth-child(2) {
+              position: absolute;
+              top: 0;
+              left: 0;
+              bottom: 0;
+              right: 0;
+              background: linear-gradient(transparent, #000000);
+            }
+
+            > :nth-child(3) {
+              * {
+                margin: 0;
+              }
+              box-sizing: border-box;
+              position: absolute;
+              width: 100%;
+              padding: 0.6rem 1rem;
+              z-index: 50;
+              bottom: 0;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+
+              > :first-child {
+                display: grid;
+                gap: 0.2rem;
+
+                p {
+                  font-size: 1.05rem;
+                }
+
+                span {
+                  font-size: 0.8rem;
+                  color: rgba(255, 255, 255, 0.651);
+                }
+              }
+
+              > :last-child {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                box-sizing: border-box;
+                background-color: #e88725;
+                padding: 0.4rem;
+                border-radius: 100%;
+                width: 35px;
+                height: 35px;
+                cursor: pointer;
+
+                svg {
+                  font-size: 1.4rem;
+                  color: #fff;
+                }
+              }
+            }
+
+            > :last-child {
+              padding: 0.4rem;
+              opacity: 0;
+              transform: translateY(-999999px);
+              background: linear-gradient(#000000cd 0 80%, transparent);
+              position: absolute;
+              z-index: 50;
+              top: 0;
+              left: 0;
+              right: 0rem;
+              transition: opacity 0.2s;
+
+              > :first-child {
+                display: grid;
+                align-items: center;
+                justify-content: space-between;
+                grid-template-columns: 7fr 1fr;
+                margin-bottom: 0.6rem;
+                h3 {
+                  margin: 0;
+                  margin-bottom: 0.4rem;
+                }
+
+                svg {
+                  cursor: pointer;
+                  justify-self: flex-end;
+                  font-size: 1.6rem;
+                }
+              }
+
+              > p {
+                font-size: 1rem;
+              }
+
+              > :nth-child(2) {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                > div {
+                  display: flex;
+                  align-items: center;
+                  gap: 0.1rem;
+
+                  svg {
+                    color: orange;
+                  }
+                }
+
+                * {
+                  margin: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      > :last-child {
+        background-color: rgb(57, 57, 72);
+        border: 1px solid rgb(120, 120, 120);
+        padding: 0 0.8rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        > p {
+          font-size: 0.9rem;
+          font-weight: 500;
+        }
+
+        > div {
+          display: flex;
+          align-items: center;
+
+          button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+
+            svg {
+              color: #fff;
+              font-size: 1.3rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .swipermovies {
+    margin-top: 1rem;
+    padding: 0 2rem;
+
+    > :first-child {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-items: center;
+
+      > :first-child {
+        margin-top: 1.5rem;
+
+        > div {
+          cursor: default;
+          display: flex;
+          justify-content: center;
+
+          > div {
+            position: relative;
+            width: 95%;
+
+            > img {
+              height: 100%;
+              width: 100%;
+            }
+
+            > :nth-child(2) {
+              position: absolute;
+              top: 0;
+              left: 0;
+              bottom: 0;
+              right: 0;
+              background: linear-gradient(transparent, #000000);
+            }
+
+            > :nth-child(3) {
+              * {
+                margin: 0;
+              }
+              box-sizing: border-box;
+              position: absolute;
+              width: 100%;
+              padding: 0.6rem 1rem;
+              z-index: 50;
+              bottom: 0;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+
+              > :first-child {
+                display: grid;
+                gap: 0.2rem;
+
+                p {
+                  font-size: 1.2rem;
+                }
+
+                span {
+                  font-size: 1rem;
+                  color: rgba(255, 255, 255, 0.651);
+                }
+              }
+
+              > :last-child {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                box-sizing: border-box;
+                background-color: #e88725;
+                padding: 0.4rem;
+                border-radius: 100%;
+                width: 45px;
+                height: 45px;
+                cursor: pointer;
+
+                svg {
+                  font-size: 2rem !important;
+                  color: #fff;
+                }
+              }
+            }
+
+            > :last-child {
+              padding: 0.4rem;
+              opacity: 0;
+              transform: translateY(-999999px);
+              background: linear-gradient(#000000cd 0 80%, transparent);
+              position: absolute;
+              z-index: 50;
+              top: 0;
+              left: 0;
+              right: 0rem;
+              transition: opacity 0.2s;
+
+              > :first-child {
+                display: grid;
+                align-items: center;
+                justify-content: space-between;
+                grid-template-columns: 7fr 1fr;
+                h3 {
+                  font-size: 1.6rem;
+                  margin: 0;
+                  margin-bottom: 0.4rem;
+                }
+
+                svg {
+                  cursor: pointer;
+                  justify-self: flex-end;
+                  font-size: 2rem;
+                }
+              }
+
+              > p {
+                font-size: 1.2rem;
+              }
+
+              > :nth-child(2) {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                > p {
+                  font-size: 1.3rem;
+                }
+
+                > div {
+                  display: flex;
+                  align-items: center;
+                  gap: 0.1rem;
+                  font-size: 1.4rem;
+
+                  svg {
+                    color: orange;
+                    font-size: 1.4rem;
+                  }
+                }
+
+                * {
+                  margin: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      > :last-child {
+        background-color: rgb(57, 57, 72);
+        border: 1px solid rgb(120, 120, 120);
+        padding: 0 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        > p {
+          font-weight: 500;
+          font-size: 1.2rem;
+        }
+
+        > div {
+          display: flex;
+          align-items: center;
+
+          button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+
+            svg {
+              color: #fff;
+              font-size: 1.5rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .swipermovies {
+    margin-top: 1rem;
+    padding: 0 6.5rem;
+
+    > :first-child {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-items: center;
+
+      > :first-child {
+        margin-top: 1.5rem;
+
+        > div {
+          cursor: default;
+          display: flex;
+          justify-content: center;
+
+          > div {
+            position: relative;
+            height: 330px;
+            width: 95%;
+
+            > img {
+              height: 100%;
+              width: 100%;
+            }
+
+            > :nth-child(2) {
+              position: absolute;
+              top: 0;
+              left: 0;
+              bottom: 0;
+              right: 0;
+              background: linear-gradient(transparent, #000000);
+            }
+
+            > :nth-child(3) {
+              * {
+                margin: 0;
+              }
+              box-sizing: border-box;
+              position: absolute;
+              width: 100%;
+              padding: 0.6rem 1rem;
+              z-index: 50;
+              bottom: 0;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+
+              > :first-child {
+                display: grid;
+                gap: 0.2rem;
+
+                span {
+                  font-size: 0.8rem;
+                  color: rgba(255, 255, 255, 0.651);
+                }
+              }
+
+              > :last-child {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                box-sizing: border-box;
+                background-color: #e88725;
+                padding: 0.4rem;
+                border-radius: 100%;
+                width: 35px;
+                height: 35px;
+                cursor: pointer;
+
+                svg {
+                  font-size: 1.4rem;
+                  color: #fff;
+                }
+              }
+            }
+
+            > :last-child {
+              padding: 0.4rem;
+              opacity: 0;
+              transform: translateY(-999999px);
+              background: linear-gradient(#000000cd 0 80%, transparent);
+              position: absolute;
+              z-index: 50;
+              top: 0;
+              left: 0;
+              right: 0rem;
+              transition: opacity 0.2s;
+
+              > :first-child {
+                display: grid;
+                align-items: center;
+                justify-content: space-between;
+                grid-template-columns: 7fr 1fr;
+                h3 {
+                  margin: 0;
+                  margin-bottom: 0.4rem;
+                }
+
+                svg {
+                  cursor: pointer;
+                  justify-self: flex-end;
+                  font-size: 1.4rem;
+                }
+              }
+
+              > p {
+                font-size: 0.9rem;
+              }
+
+              > :nth-child(2) {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                > div {
+                  display: flex;
+                  align-items: center;
+                  gap: 0.1rem;
+
+                  svg {
+                    color: orange;
+                  }
+                }
+
+                * {
+                  margin: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      > :last-child {
+        background-color: rgb(57, 57, 72);
+        border: 1px solid rgb(120, 120, 120);
+        padding: 0 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        > p {
+          font-weight: 500;
+        }
+
+        > div {
+          display: flex;
+          align-items: center;
+
+          button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+
+            svg {
+              color: #fff;
+              font-size: 1.5rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

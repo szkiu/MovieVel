@@ -1,0 +1,1343 @@
+@media screen and (max-width: 767px) {
+  .paginationdata_1 {
+    margin-top: 1rem;
+    padding: 0rem 0.1rem;
+
+    > :first-child {
+      background-color: rgb(57, 57, 72);
+      border: 1px solid rgb(120, 120, 120);
+      padding: 0 0.4rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      > p {
+        margin: 0;
+        margin: 0.6rem 0;
+      }
+
+      > form {
+        position: relative;
+        display: flex;
+        gap: 0.6rem;
+        justify-content: flex-end;
+
+        > :first-child {
+          display: flex;
+          align-items: center;
+          gap: 0.4rem;
+          padding: 0.2rem 0.4rem;
+          cursor: pointer;
+          border-radius: 0.5rem;
+          transition: transform 0.3s;
+          background-color: rgb(57, 57, 72);
+          border: 1px solid rgb(120, 120, 120);
+          color: #fff;
+          font-size: 0.75rem;
+
+          &:hover {
+            transform: scale(1.05);
+          }
+        }
+
+        > :nth-child(2) {
+          position: absolute;
+          top: 1.5rem;
+          z-index: 100;
+          transform: translateY(-999999px);
+          transition: opacity 0.3s;
+          > ul {
+            display: grid;
+            row-gap: 0.25rem;
+            column-gap: 0.5rem;
+            background-color: rgb(57, 57, 72);
+            border: 1px solid rgb(120, 120, 120);
+            padding: 0.4rem 1rem;
+            grid-template-columns: repeat(2, 1fr);
+            list-style: none;
+
+            > li {
+              display: flex;
+              width: max-content;
+              gap: 0.2rem;
+              align-items: center;
+              justify-content: flex-start;
+
+              input[name] {
+                cursor: pointer;
+                margin: 0;
+              }
+
+              label {
+                cursor: pointer;
+              }
+
+              &:hover {
+                color: #fff8;
+                transition: color 0.2s;
+              }
+            }
+          }
+        }
+
+        > :last-child {
+          display: flex;
+          align-items: center;
+          gap: 0.4rem;
+          padding: 0.2rem 0.4rem;
+          cursor: pointer;
+          border-radius: 0.5rem;
+          background-color: rgb(57, 57, 72);
+          border: 1px solid rgb(120, 120, 120);
+          color: #fff;
+          transition: transform 0.3s;
+          font-size: 0.75rem;
+
+          &:hover {
+            transform: scale(1.05);
+          }
+        }
+      }
+    }
+
+    > :nth-child(2) {
+      margin-top: 1.5rem;
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(1, 1fr);
+      justify-content: space-between;
+
+      > div {
+        position: relative;
+        justify-self: center;
+        height: 330px;
+        width: 95%;
+        cursor: default;
+
+        > :first-child {
+          height: 100%;
+          width: 100%;
+        }
+
+        > :nth-child(2) {
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          background: linear-gradient(transparent, #000000);
+        }
+
+        > :nth-child(3) {
+          * {
+            margin: 0;
+          }
+
+          box-sizing: border-box;
+          position: absolute;
+          width: 100%;
+          padding: 0.6rem 0.4rem;
+          z-index: 50;
+          bottom: 0;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          > :first-child {
+            display: grid;
+            gap: 0.2rem;
+
+            span {
+              font-size: 0.68rem;
+              color: rgba(255, 255, 255, 0.651);
+            }
+          }
+
+          > :last-child {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+            background-color: #e88725;
+            padding: 0.4rem;
+            border-radius: 100%;
+            width: 35px;
+            height: 35px;
+            cursor: pointer;
+
+            svg {
+              font-size: 1.4rem;
+              color: #fff;
+            }
+          }
+        }
+
+        > :last-child {
+          padding: 0.4rem;
+          opacity: 0;
+          transform: translateY(-999999px);
+          background: linear-gradient(#000000cd 0 80%, transparent);
+          position: absolute;
+          z-index: 50;
+          top: 0;
+          left: 0;
+          right: 0rem;
+          transition: opacity 0.2s;
+
+          > :first-child {
+            display: grid;
+            align-items: center;
+            justify-content: space-between;
+            grid-template-columns: 7fr 1fr;
+            h3 {
+              margin: 0;
+              margin-bottom: 0.4rem;
+            }
+
+            svg {
+              cursor: pointer;
+              justify-self: flex-end;
+              font-size: 1.4rem;
+            }
+          }
+
+          > p {
+            font-size: 0.9rem;
+          }
+
+          > :nth-child(2) {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            > div {
+              display: flex;
+              align-items: center;
+              gap: 0.1rem;
+
+              svg {
+                color: orange;
+              }
+            }
+
+            * {
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+
+    > :last-child {
+      margin-top: 2rem;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      color: #fff;
+
+      div {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.6rem;
+        width: 1.5rem;
+        height: 1.5rem;
+        background-color: rgb(57, 57, 72);
+        border: 1px solid rgb(120, 120, 120);
+        font-size: 0.8rem;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .paginationdata_2 {
+    margin-top: 1rem;
+    padding: 0 0.5rem;
+
+    > :first-child {
+      background-color: rgb(57, 57, 72);
+      border: 1px solid rgb(120, 120, 120);
+      padding: 0 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      > p {
+        margin: 0.7rem 0;
+        font-size: 1.2rem;
+      }
+
+      > form {
+        position: relative;
+        display: flex;
+        gap: 0.6rem;
+        justify-content: flex-end;
+
+        > :first-child {
+          display: flex;
+          align-items: center;
+          gap: 0.4rem;
+          padding: 0.2rem 0.6rem;
+          cursor: pointer;
+          border-radius: 0.5rem;
+          transition: transform 0.3s;
+          background-color: rgb(57, 57, 72);
+          border: 1px solid rgb(120, 120, 120);
+          color: #fff;
+
+          &:hover {
+            transform: scale(1.05);
+          }
+        }
+
+        > :nth-child(2) {
+          position: absolute;
+          top: 2.5rem;
+          z-index: 100;
+          transform: translateY(-999999px);
+          transition: opacity 0.3s;
+          > ul {
+            display: grid;
+            row-gap: 0.25rem;
+            column-gap: 0.2rem;
+            background-color: rgb(57, 57, 72);
+            border: 1px solid rgb(120, 120, 120);
+            padding: 0.4rem 1rem;
+            grid-template-columns: repeat(4, 1fr);
+            list-style: none;
+
+            > li {
+              display: flex;
+              gap: 0.2rem;
+              align-items: center;
+              justify-content: flex-start;
+
+              input[name] {
+                cursor: pointer;
+                margin: 0;
+              }
+
+              label {
+                cursor: pointer;
+              }
+
+              &:hover {
+                color: #fff8;
+                transition: color 0.2s;
+              }
+            }
+          }
+        }
+
+        > :last-child {
+          display: flex;
+          align-items: center;
+          gap: 0.4rem;
+          padding: 0.2rem 0.6rem;
+          cursor: pointer;
+          border-radius: 0.5rem;
+          background-color: rgb(57, 57, 72);
+          border: 1px solid rgb(120, 120, 120);
+          color: #fff;
+          transition: transform 0.3s;
+
+          &:hover {
+            transform: scale(1.05);
+          }
+        }
+      }
+    }
+
+    > :nth-child(2) {
+      margin-top: 1.5rem;
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(1, 1fr);
+
+      > div {
+        position: relative;
+        height: 170px;
+        width: 95%;
+        background-color: rgb(53, 53, 66);
+        border: 1px solid rgb(124, 124, 124);
+        cursor: default;
+        box-sizing: border-box;
+        padding: 0.6rem 1rem;
+        z-index: 50;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+
+        * {
+          margin: 0;
+        }
+
+        > :first-child {
+          display: grid;
+          width: 100%;
+          gap: 0.2rem;
+
+          h3 {
+            font-size: 1.1rem;
+            font-weight: 500;
+          }
+
+          span {
+            font-size: 0.8rem;
+            color: rgba(255, 255, 255, 0.651);
+          }
+
+          > :last-child {
+            display: flex;
+            justify-content: space-between;
+          }
+        }
+
+        > :last-child {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          box-sizing: border-box;
+          background-color: #e88725;
+          padding: 0.4rem;
+          border-radius: 100%;
+          width: 35px;
+          height: 35px;
+          cursor: pointer;
+
+          svg {
+            color: #fff;
+            font-size: 1.4rem;
+          }
+        }
+      }
+    }
+
+    > :last-child {
+      margin-top: 2rem;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      color: #fff;
+
+      div {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.6rem;
+        width: 2rem;
+        height: 2rem;
+        background-color: rgb(57, 57, 72);
+        border: 1px solid rgb(120, 120, 120);
+        font-size: 0.8rem;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .cat_active {
+    background-color: rgb(111, 111, 111) !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .paginationdata_1 {
+    margin-top: 1rem;
+    padding: 0rem 0.1rem;
+
+    > :first-child {
+      background-color: rgb(57, 57, 72);
+      border: 1px solid rgb(120, 120, 120);
+      padding: 0 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      > p {
+        margin: 0;
+        margin: 0.6rem 0;
+        font-size: 1.3rem;
+      }
+
+      > form {
+        position: relative;
+        display: flex;
+        gap: 0.6rem;
+        justify-content: flex-end;
+
+        > :first-child {
+          display: flex;
+          align-items: center;
+          gap: 0.4rem;
+          padding: 0.2rem 0.6rem;
+          cursor: pointer;
+          border-radius: 0.5rem;
+          transition: transform 0.3s;
+          background-color: rgb(57, 57, 72);
+          border: 1px solid rgb(120, 120, 120);
+          color: #fff;
+          font-size: 1.1rem;
+
+          &:hover {
+            transform: scale(1.05);
+          }
+        }
+
+        > :nth-child(2) {
+          position: absolute;
+          top: 2rem;
+          z-index: 100;
+          transform: translateY(-999999px);
+          transition: opacity 0.3s;
+          > ul {
+            display: grid;
+            row-gap: 0.25rem;
+            column-gap: 0.8rem;
+            background-color: rgb(57, 57, 72);
+            border: 1px solid rgb(120, 120, 120);
+            padding: 0.4rem 1rem;
+            grid-template-columns: repeat(3, 1fr);
+            list-style: none;
+
+            > li {
+              display: flex;
+              width: max-content;
+              gap: 0.4rem;
+              align-items: center;
+              justify-content: flex-start;
+              font-size: 1.6rem;
+
+              input[name] {
+                cursor: pointer;
+                width: 15px;
+                height: 15px;
+                margin: 0;
+              }
+
+              label {
+                cursor: pointer;
+              }
+
+              &:hover {
+                color: #fff8;
+                transition: color 0.2s;
+              }
+            }
+          }
+        }
+
+        > :last-child {
+          display: flex;
+          align-items: center;
+          gap: 0.4rem;
+          padding: 0.2rem 0.6rem;
+          cursor: pointer;
+          border-radius: 0.5rem;
+          background-color: rgb(57, 57, 72);
+          border: 1px solid rgb(120, 120, 120);
+          color: #fff;
+          transition: transform 0.3s;
+          font-size: 1.1rem;
+
+          &:hover {
+            transform: scale(1.05);
+          }
+        }
+      }
+    }
+
+    > :nth-child(2) {
+      margin-top: 1.5rem;
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: space-between;
+
+      > div {
+        position: relative;
+        justify-self: center;
+        height: 330px;
+        width: 95%;
+        cursor: default;
+
+        > :first-child {
+          height: 100%;
+          width: 100%;
+        }
+
+        > :nth-child(2) {
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          background: linear-gradient(transparent, #000000);
+        }
+
+        > :nth-child(3) {
+          * {
+            margin: 0;
+          }
+
+          box-sizing: border-box;
+          position: absolute;
+          width: 100%;
+          padding: 0.6rem 0.4rem;
+          z-index: 50;
+          bottom: 0;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          > :first-child {
+            display: grid;
+            gap: 0.2rem;
+
+            > p {
+              font-size: 1.4rem;
+            }
+
+            span {
+              font-size: 1rem;
+              color: rgba(255, 255, 255, 0.651);
+            }
+          }
+
+          > :last-child {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+            background-color: #e88725;
+            padding: 0.4rem;
+            border-radius: 100%;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+
+            svg {
+              font-size: 1.6rem;
+              color: #fff;
+            }
+          }
+        }
+
+        > :last-child {
+          padding: 0.4rem;
+          opacity: 0;
+          transform: translateY(-999999px);
+          background: linear-gradient(#000000cd 0 80%, transparent);
+          position: absolute;
+          z-index: 50;
+          top: 0;
+          left: 0;
+          right: 0rem;
+          transition: opacity 0.2s;
+
+          > :first-child {
+            display: grid;
+            align-items: center;
+            justify-content: space-between;
+            grid-template-columns: 7fr 1fr;
+            h3 {
+              margin: 0;
+              margin-bottom: 0.4rem;
+              font-size: 1.8rem;
+            }
+
+            svg {
+              cursor: pointer;
+              justify-self: flex-end;
+              font-size: 1.8rem;
+            }
+          }
+
+          > p {
+            font-size: 1.1rem;
+          }
+
+          > :nth-child(2) {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            > p {
+              font-size: 1.2rem;
+            }
+
+            > div {
+              display: flex;
+              align-items: center;
+              gap: 0.1rem;
+              font-size: 1.2rem;
+
+              svg {
+                color: orange;
+              }
+            }
+
+            * {
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+
+    > :last-child {
+      margin-top: 2rem;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      color: #fff;
+
+      div {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.6rem;
+        width: 2.8rem;
+        height: 2.8rem;
+        background-color: rgb(57, 57, 72);
+        border: 1px solid rgb(120, 120, 120);
+        font-size: 1.4rem;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .paginationdata_2 {
+    margin-top: 1rem;
+    padding: 0rem 0.6rem;
+
+    > :first-child {
+      background-color: rgb(57, 57, 72);
+      border: 1px solid rgb(120, 120, 120);
+      padding: 0 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      > p {
+        margin: 0.8rem 0;
+        font-size: 1.4rem;
+      }
+
+      > form {
+        position: relative;
+        display: flex;
+        gap: 0.6rem;
+        justify-content: flex-end;
+
+        > :first-child {
+          display: flex;
+          align-items: center;
+          gap: 0.4rem;
+          padding: 0.2rem 0.6rem;
+          cursor: pointer;
+          border-radius: 0.5rem;
+          transition: transform 0.3s;
+          background-color: rgb(57, 57, 72);
+          border: 1px solid rgb(120, 120, 120);
+          color: #fff;
+
+          &:hover {
+            transform: scale(1.05);
+          }
+        }
+
+        > :nth-child(2) {
+          position: absolute;
+          top: 2.5rem;
+          z-index: 100;
+          transform: translateY(-999999px);
+          transition: opacity 0.3s;
+          > ul {
+            display: grid;
+            row-gap: 0.25rem;
+            column-gap: 0.2rem;
+            background-color: rgb(57, 57, 72);
+            border: 1px solid rgb(120, 120, 120);
+            padding: 0.4rem 1rem;
+            grid-template-columns: repeat(4, 1fr);
+            list-style: none;
+
+            > li {
+              display: flex;
+              gap: 0.2rem;
+              align-items: center;
+              justify-content: flex-start;
+
+              input[name] {
+                cursor: pointer;
+                margin: 0;
+              }
+
+              label {
+                cursor: pointer;
+              }
+
+              &:hover {
+                color: #fff8;
+                transition: color 0.2s;
+              }
+            }
+          }
+        }
+
+        > :last-child {
+          display: flex;
+          align-items: center;
+          gap: 0.4rem;
+          padding: 0.2rem 0.6rem;
+          cursor: pointer;
+          border-radius: 0.5rem;
+          background-color: rgb(57, 57, 72);
+          border: 1px solid rgb(120, 120, 120);
+          color: #fff;
+          transition: transform 0.3s;
+
+          &:hover {
+            transform: scale(1.05);
+          }
+        }
+      }
+    }
+
+    > :nth-child(2) {
+      margin-top: 1.5rem;
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(3, 1fr);
+
+      > div {
+        position: relative;
+        height: 190px;
+        width: 95%;
+        background-color: rgb(53, 53, 66);
+        border: 1px solid rgb(124, 124, 124);
+        cursor: default;
+        box-sizing: border-box;
+        padding: 0.6rem 1rem;
+        z-index: 50;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+
+        * {
+          margin: 0;
+        }
+
+        > :first-child {
+          display: grid;
+          width: 100%;
+          gap: 0.2rem;
+
+          h3 {
+            font-size: 1.4rem;
+            font-weight: 500;
+          }
+
+          span {
+            font-size: 1rem;
+            color: rgba(255, 255, 255, 0.651);
+          }
+
+          > :last-child {
+            display: flex;
+            justify-content: space-between;
+            font-size: 1.1rem;
+          }
+        }
+
+        > :last-child {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          box-sizing: border-box;
+          background-color: #e88725;
+          padding: 0.4rem;
+          border-radius: 100%;
+          width: 40px;
+          height: 40px;
+          cursor: pointer;
+
+          svg {
+            color: #fff;
+            font-size: 1.8rem;
+          }
+        }
+      }
+    }
+
+    > :last-child {
+      margin-top: 2rem;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      color: #fff;
+
+      div {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.6rem;
+        width: 2.6rem;
+        height: 2.6rem;
+        background-color: rgb(57, 57, 72);
+        border: 1px solid rgb(120, 120, 120);
+        font-size: 1.2rem;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .cat_active {
+    background-color: rgb(111, 111, 111) !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .paginationdata_1 {
+    padding: 0 6.5rem;
+
+    > :first-child {
+      background-color: rgb(57, 57, 72);
+      border: 1px solid rgb(120, 120, 120);
+      padding: 0 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      > form {
+        position: relative;
+        display: flex;
+        gap: 0.6rem;
+        justify-content: flex-end;
+
+        > :first-child {
+          display: flex;
+          align-items: center;
+          gap: 0.4rem;
+          padding: 0.2rem 0.6rem;
+          cursor: pointer;
+          border-radius: 0.5rem;
+          transition: transform 0.3s;
+          background-color: rgb(57, 57, 72);
+          border: 1px solid rgb(120, 120, 120);
+          color: #fff;
+
+          &:hover {
+            transform: scale(1.05);
+          }
+        }
+
+        > :nth-child(2) {
+          position: absolute;
+          top: 2.5rem;
+          z-index: 100;
+          transform: translateY(-999999px);
+          transition: opacity 0.3s;
+          > ul {
+            display: grid;
+            row-gap: 0.25rem;
+            column-gap: 0.5rem;
+            background-color: rgb(57, 57, 72);
+            border: 1px solid rgb(120, 120, 120);
+            padding: 0.4rem 1rem;
+            grid-template-columns: repeat(4, 1fr);
+            list-style: none;
+
+            > li {
+              display: flex;
+              width: max-content;
+              gap: 0.2rem;
+              align-items: center;
+              justify-content: flex-start;
+
+              input[name] {
+                cursor: pointer;
+                margin: 0;
+              }
+
+              label {
+                cursor: pointer;
+              }
+
+              &:hover {
+                color: #fff8;
+                transition: color 0.2s;
+              }
+            }
+          }
+        }
+
+        > :last-child {
+          display: flex;
+          align-items: center;
+          gap: 0.4rem;
+          padding: 0.2rem 0.6rem;
+          cursor: pointer;
+          border-radius: 0.5rem;
+          background-color: rgb(57, 57, 72);
+          border: 1px solid rgb(120, 120, 120);
+          color: #fff;
+          transition: transform 0.3s;
+
+          &:hover {
+            transform: scale(1.05);
+          }
+        }
+      }
+    }
+
+    > :nth-child(2) {
+      margin-top: 1.5rem;
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(4, 1fr);
+      justify-content: space-between;
+
+      > div {
+        position: relative;
+        justify-self: center;
+        height: 330px;
+        width: 95%;
+        cursor: default;
+
+        > :first-child {
+          height: 100%;
+          width: 100%;
+        }
+
+        > :nth-child(2) {
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          background: linear-gradient(transparent, #000000);
+        }
+
+        > :nth-child(3) {
+          * {
+            margin: 0;
+          }
+
+          box-sizing: border-box;
+          position: absolute;
+          width: 100%;
+          padding: 0.6rem 0.4rem;
+          z-index: 50;
+          bottom: 0;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          > :first-child {
+            display: grid;
+            gap: 0.2rem;
+
+            span {
+              font-size: 0.68rem;
+              color: rgba(255, 255, 255, 0.651);
+            }
+          }
+
+          > :last-child {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+            background-color: #e88725;
+            padding: 0.4rem;
+            border-radius: 100%;
+            width: 35px;
+            height: 35px;
+            cursor: pointer;
+
+            svg {
+              font-size: 1.4rem;
+              color: #fff;
+            }
+          }
+        }
+
+        > :last-child {
+          padding: 0.4rem;
+          opacity: 0;
+          transform: translateY(-999999px);
+          background: linear-gradient(#000000cd 0 80%, transparent);
+          position: absolute;
+          z-index: 50;
+          top: 0;
+          left: 0;
+          right: 0rem;
+          transition: opacity 0.2s;
+
+          > :first-child {
+            display: grid;
+            align-items: center;
+            justify-content: space-between;
+            grid-template-columns: 7fr 1fr;
+            h3 {
+              margin: 0;
+              margin-bottom: 0.4rem;
+            }
+
+            svg {
+              cursor: pointer;
+              justify-self: flex-end;
+              font-size: 1.4rem;
+            }
+          }
+
+          > p {
+            font-size: 0.9rem;
+          }
+
+          > :nth-child(2) {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            > div {
+              display: flex;
+              align-items: center;
+              gap: 0.1rem;
+
+              svg {
+                color: orange;
+              }
+            }
+
+            * {
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+
+    > :last-child {
+      margin-top: 2rem;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      color: #fff;
+
+      div {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.6rem;
+        width: 2rem;
+        height: 2rem;
+        background-color: rgb(57, 57, 72);
+        border: 1px solid rgb(120, 120, 120);
+        font-size: 0.8rem;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .paginationdata_2 {
+    padding: 0 6.5rem;
+
+    > :first-child {
+      background-color: rgb(57, 57, 72);
+      border: 1px solid rgb(120, 120, 120);
+      padding: 0 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      > form {
+        position: relative;
+        display: flex;
+        gap: 0.6rem;
+        justify-content: flex-end;
+
+        > :first-child {
+          display: flex;
+          align-items: center;
+          gap: 0.4rem;
+          padding: 0.2rem 0.6rem;
+          cursor: pointer;
+          border-radius: 0.5rem;
+          transition: transform 0.3s;
+          background-color: rgb(57, 57, 72);
+          border: 1px solid rgb(120, 120, 120);
+          color: #fff;
+
+          &:hover {
+            transform: scale(1.05);
+          }
+        }
+
+        > :nth-child(2) {
+          position: absolute;
+          top: 2.5rem;
+          z-index: 100;
+          transform: translateY(-999999px);
+          transition: opacity 0.3s;
+          > ul {
+            display: grid;
+            row-gap: 0.25rem;
+            column-gap: 0.2rem;
+            background-color: rgb(57, 57, 72);
+            border: 1px solid rgb(120, 120, 120);
+            padding: 0.4rem 1rem;
+            grid-template-columns: repeat(4, 1fr);
+            list-style: none;
+
+            > li {
+              display: flex;
+              gap: 0.2rem;
+              align-items: center;
+              justify-content: flex-start;
+
+              input[name] {
+                cursor: pointer;
+                margin: 0;
+              }
+
+              label {
+                cursor: pointer;
+              }
+
+              &:hover {
+                color: #fff8;
+                transition: color 0.2s;
+              }
+            }
+          }
+        }
+
+        > :last-child {
+          display: flex;
+          align-items: center;
+          gap: 0.4rem;
+          padding: 0.2rem 0.6rem;
+          cursor: pointer;
+          border-radius: 0.5rem;
+          background-color: rgb(57, 57, 72);
+          border: 1px solid rgb(120, 120, 120);
+          color: #fff;
+          transition: transform 0.3s;
+
+          &:hover {
+            transform: scale(1.05);
+          }
+        }
+      }
+    }
+
+    > :nth-child(2) {
+      margin-top: 1.5rem;
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(4, 1fr);
+
+      > div {
+        position: relative;
+        height: 190px;
+        width: 95%;
+        background-color: rgb(53, 53, 66);
+        border: 1px solid rgb(124, 124, 124);
+        cursor: default;
+        box-sizing: border-box;
+        padding: 0.6rem 1rem;
+        z-index: 50;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+
+        * {
+          margin: 0;
+        }
+
+        > :first-child {
+          display: grid;
+          width: 100%;
+          gap: 0.2rem;
+
+          h3 {
+            font-size: 1.1rem;
+            font-weight: 500;
+          }
+
+          span {
+            font-size: 0.8rem;
+            color: rgba(255, 255, 255, 0.651);
+          }
+
+          > :last-child {
+            display: flex;
+            justify-content: space-between;
+          }
+        }
+
+        > :last-child {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          box-sizing: border-box;
+          background-color: #e88725;
+          padding: 0.4rem;
+          border-radius: 100%;
+          width: 35px;
+          height: 35px;
+          cursor: pointer;
+
+          svg {
+            color: #fff;
+            font-size: 1.4rem;
+          }
+        }
+      }
+    }
+
+    > :last-child {
+      margin-top: 2rem;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      color: #fff;
+
+      div {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.6rem;
+        width: 2rem;
+        height: 2rem;
+        background-color: rgb(57, 57, 72);
+        border: 1px solid rgb(120, 120, 120);
+        font-size: 0.8rem;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .cat_active {
+    background-color: rgb(111, 111, 111) !important;
+  }
+}
