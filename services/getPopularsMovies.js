@@ -6,7 +6,7 @@ const getPopularMovies = async () => {
     method: "GET",
     url: settings.URL,
     headers: {
-      "X-RapidAPI-Key": settings.RAPIDAPI_KEY,
+      "X-RapidAPI-Key": "4b5dae2f18msh20b900154ed84afp1ced00jsn434cfb9566ec",
       "X-RapidAPI-Host": settings.RAPIDAPI_HOST,
     },
   };

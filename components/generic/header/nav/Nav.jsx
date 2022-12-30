@@ -17,7 +17,7 @@ const Nav = () => {
   const [mql, setMql] = useState();
 
   useEffect(() => {
-    setMql(matchMedia("(max-width: 1280px)"));
+    setMql(matchMedia("(max-width: 1279px)"));
   }, []);
 
   return (

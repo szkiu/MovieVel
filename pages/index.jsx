@@ -20,11 +20,11 @@ const Home = ({ popularMovies, movies, shows }) => {
       <main className={s.main}>
         <NewMovie />
 
-        {/* <SwiperMovies movies={popularMovies} title="Popular Movies" /> */}
+        <SwiperMovies movies={popularMovies} title="Popular Movies" />
 
         <SwiperMovies movies={movies} title="Movies" />
 
-        {/* <PaginationData shows={shows} title="Shows" num={8} /> */}
+        <PaginationData shows={shows} title="Shows" num={8} />
       </main>
     </>
   );

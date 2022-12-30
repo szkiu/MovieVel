@@ -14,7 +14,7 @@ const getShows = async () => {
       page: "1",
     },
     headers: {
-      "X-RapidAPI-Key": "70777f5babmsh95a3d4d2a9c8bacp13e1e0jsn2fbd6b6824ef",
+      "X-RapidAPI-Key": "21380bf9d4msh8bdefd0d2aa233ap1c8139jsn510bd3569629",
       "X-RapidAPI-Host": settings.RAPIDAPI_HOST,
     },
   };

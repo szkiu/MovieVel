@@ -3,7 +3,7 @@ import sl from "../../styles/login.module.scss";
 import Head from "next/head";
 import Header from "../../components/generic/header/Header";
 import Search from "../../components/generic/header/search/Search";
-import Form from "../../components/Form/Form";
+import Form from "../../components/form/Form";
 import { useEffect, useState } from "react";
 
 const Login = () => {
