@@ -1,4 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+@media screen and (min-width: 1700px) {
+  body {
+    zoom: 150%;
+  }
+}
+
 body {
+  font-family: "Open Sans", sans-serif;
   background-color: rgb(31, 31, 49);
   color: #fff;
   min-height: 90vh;

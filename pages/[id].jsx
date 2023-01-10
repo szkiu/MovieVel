@@ -57,7 +57,7 @@ export async function getServerSideProps(context) {
     res = await getIndividual(context.query.id.split("~")[1], {
       ott: true,
       host: "ott-details.p.rapidapi.com",
-      key: "70777f5babmsh95a3d4d2a9c8bacp13e1e0jsn2fbd6b6824ef",
+      key: "965ed4d7b2msh732c8ddbb37028bp1a7c85jsn4363bf2ca880",
       url: "https://ott-details.p.rapidapi.com/gettitleDetails",
     });
   } else {

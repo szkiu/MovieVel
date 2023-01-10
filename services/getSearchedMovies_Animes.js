@@ -6,7 +6,7 @@ const getSearchedMovies_Animes = async (search) => {
     url: "https://ott-details.p.rapidapi.com/search",
     params: { title: search, page: "1" },
     headers: {
-      "X-RapidAPI-Key": "70777f5babmsh95a3d4d2a9c8bacp13e1e0jsn2fbd6b6824ef",
+      "X-RapidAPI-Key": "7cf4bfbe74msh1ac5bedb15162bcp103bd8jsn797378ec92f9",
       "X-RapidAPI-Host": "ott-details.p.rapidapi.com",
     },
   };

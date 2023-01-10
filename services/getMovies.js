@@ -14,7 +14,7 @@ const getMovies = async (genre) => {
       page: "1",
     },
     headers: {
-      "X-RapidAPI-Key": "70777f5babmsh95a3d4d2a9c8bacp13e1e0jsn2fbd6b6824ef",
+      "X-RapidAPI-Key": "2fdffa66bamshb89bffa46284cacp171c2djsn06f35f74cc14",
       "X-RapidAPI-Host": settings.RAPIDAPI_HOST,
     },
   };
